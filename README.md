@@ -10,7 +10,7 @@ A personal book sharing website where I share books from my collection with anyo
 ## 🌐 Live Demo
 
 **Live Site URL:**  Will be added after
-**GitHub Repository:** Will be added after
+**GitHub Repository:** https://github.com/YawDankwa/COMP126FinalProject
 
 ---
 
