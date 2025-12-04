@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookShare - Personal Library</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo" aria-label="BookShare Home">
+        <span class="logo-icon" aria-hidden="true">📚</span>
+        BookShare
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" role="menubar">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="books.html" class="nav-link">Books</a></li>
+        <li><a href="request.html" class="nav-link">Request</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main" id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title" id="hero-title">Welcome to Our Personal Library</h1>
+        <p class="hero-subtitle">
+          Hi, Welcome to BookShare! We've collected books over the years and now we're making them 
+          freely available for anyone who wants to read them. Browse our collection 
+          and request any book that interests you — completely free!
+        </p>
+        <div class="hero-buttons">
+          <a href="books.html" class="btn btn-primary">Browse Our Books</a>
+          <a href="about.html" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-preview" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title" id="about-title">Why we're Sharing Our Books</h2>
+        <div class="about-grid">
+          <article class="about-text">
+            <p>
+              Over the years, we've accumulated a collection of amazing books that have shaped 
+              our thinking and brought us joy. Rather than letting them collect dust on our shelves, 
+              we decided to share them with others who might enjoy them just as much as we did.
+            </p>
+            <p>
+              Every book here is from our personal collection — books we've read, loved, and now 
+              want to pass on. Whether you're a student, a casual reader, or a book enthusiast, 
+              feel free to request any title that catches your eye.
+            </p>
+            <h3>How It Works:</h3>
+            <ul class="feature-list">
+              <li>📖 Browse books from our personal collection</li>
+              <li>🔍 Search for specific titles or genres</li>
+              <li>📝 Submit a request with your details</li>
+              <li>📬 We'll ship the book to you for free</li>
+              <li>⭐ Share your reading experience</li>
+            </ul>
+            <a href="about.html" class="btn btn-primary">More About Us</a>
+          </article>
+          <aside class="about-image" aria-hidden="true">
+            <div class="image-card">
+              <div class="book-stack">
+                <div class="book book-1"></div>
+                <div class="book book-2"></div>
+                <div class="book book-3"></div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section" aria-labelledby="stats-heading">
+      <h2 class="visually-hidden" id="stats-heading">Our Library Stats</h2>
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-number">150+</span>
+            <span class="stat-label">Books in Collection</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">75+</span>
+            <span class="stat-label">Books Shared</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Genres Available</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Free Forever</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Find Your Next Read?</h2>
+        <p>Browse our collection and request any book that interests you!</p>
+        <div class="cta-buttons">
+          <a href="books.html" class="btn btn-primary">Browse Books</a>
+          <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>📚 Our Books</h3>
+          <p>Sharing our personal library with readers everywhere.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="request.html">Request</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>📧 team@bookshare.com</p>
+          <p>📍 UNC Chapel Hill</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Our BookShare - COMP 126 Final Project | Wisdom Okwen, Theophilius Dapaah and Yaw Dankwa</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
